@@ -1,7 +1,6 @@
-<!doctype html>
 <html>
 <head>
-<title>Javascript aprofundado</title>
+<title>Javascript Game</title>
 <style>
 	canvas {
 		position: absolute;
@@ -13,7 +12,7 @@
 		
 	}
 </style>
-</head>
+<style type="text/css"></style></head>
 <body>
     <script>
 	var canvas, ctx, ALTURA, LARGURA, frames =0, maxPulo = 3, velocidade = 6,
@@ -82,7 +81,7 @@
 	},
 	obstaculos = {
 			_obs: [],
-			cores: ["#ffbc1", "#ff1c1c", "#ff85e1", "#52a7ff", "#78ff5d"],
+			cores: ["#000080", "#FF4500", "#8B4513", "#7CFC00", "#FF1493"],
 			tempoInsere: 0,
 			
 			insere: function(){
@@ -115,7 +114,7 @@
           //   estadoAtual = estado.perdeu;
 
 					//}else if(obs.x < personagem.x){
-//PONTUAÇÃO
+//PONTUAÃ‡ÃƒO
 					//personagem.score ++;
 
 
@@ -241,5 +240,8 @@
 	main();
 
     </script>
+    
+    <canvas width="600" height="600" style="border: 1px solid rgb(0, 0, 0);"></canvas>
+
 </body>
 </html>
